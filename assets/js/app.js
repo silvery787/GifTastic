@@ -79,7 +79,6 @@ $(document).ready( function(){
     var type3 = "matrix";
     var queryURL3 = "https://www.omdbapi.com/?t=" + type3 + "&y=&plot=short&apikey=trilogy";
 
-	console.log("start");
 	drawButtons();
 
 	$("#buttons").on("click", ".btn_item", function(){
