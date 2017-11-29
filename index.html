@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>GifTastic</title>
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+  	<!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
+  	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+
+  	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+
+</head>
+<body>
+
+	<div class="container" id="buttons"></div>
+	
+	<div class="container">
+		<div class="row justify-contetnt-center">
+			<div class="col-10" id="pictures"></div>
+			<div class="col-2">
+				<form id="request_form">
+					<div class="form-group">                        
+				    	<label for="button_text">Add an animal</label>
+				    	<input type="text" id="button_text"><br>
+					</div>
+				    <!-- Button triggers new movie to be added -->
+				    <input id="add_button" type="submit" value="Submit">
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="assets/js/app.js"></script>
+
+</body>
+</html>

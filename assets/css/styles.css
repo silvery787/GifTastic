@@ -1,0 +1,49 @@
+body{
+	font-size: 22px;
+	font-style: Ubuntu, cursive;
+}
+.container {
+	/*padding: 0px;*/
+	padding-bottom: 20px;
+}
+.btn_item {
+	color: white;
+	background-color: #5eabe7;
+	border-color: #1178b2;
+	border-radius: 5px;
+	border-width: 2px;
+	margin : 5px;
+	cursor: pointer;
+}
+.img_object {
+	display: inline-block;
+	border: 1px solid #1178b2;
+	border-radius: 5px;
+	margin: 2px;
+	margin-bottom: 5px;
+}
+.img_object p {
+	padding: 0px;
+	margin : 5px;
+	margin-bottom: 0px;
+	color: #1178b2;
+	font-size: 18px;
+}
+.pic {
+	margin: 5px;
+	cursor: pointer;
+}
+ form {
+ 	background: #5eabe7;
+ 	color: white;
+ 	width: 250px;
+ 	padding : 15px;
+ 	border-radius: 5px;
+ 	border :1px solid #1178b2;
+ }
+ #add_button {
+ 	border-radius: 5px;
+ 	border :1px solid #1178b2;
+ 	color: #1178b2;
+ 	cursor: pointer;
+ }
